@@ -2,7 +2,7 @@
   "name": "react-webpack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/rad182/react-webpack",
+  "homepage": "https://rad182.github.io/react-webpack",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
