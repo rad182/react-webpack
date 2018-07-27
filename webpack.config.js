@@ -41,11 +41,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
       filename: 'index.html'
-    }),
+    })
     new CopyWebpackPlugin([
       {
         from: './public/*',
-        flatten: true
+        flatten: true,
+        ignore: ['index.html']
       }
     ])
   ]
