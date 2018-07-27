@@ -6,11 +6,7 @@ const propTypes = {
 };
 
 export default function PageNotFound({ location }) {
-  return (
-    <p>
-      Page not found - the path, <Code>{location.pathname}</Code>, did not match any React Router routes.
-    </p>
-  );
+  return <p>Page not found - the path: {location.pathname}, did not match any React Router routes.</p>;
 }
 
 PageNotFound.propTypes = propTypes;
